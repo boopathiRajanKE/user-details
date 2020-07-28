@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "Nexa-Regular";
+  font-display: "swap";
+  src: url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.eot");
+  src: local("Nexa"), local("Nexa-Regular"), local("sans-serif"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.woff")
+      format("woff"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.ttf")
+      format("truetype"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.svg#Nexa-Regular")
+      format("svg"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Regular.woff2")
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  font-display: "swap";
+  src: url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.eot");
+  src: local("Nexa Bold"), local("Nexa-Bold"), local("sans-serif"),
+    url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.woff")
+      format("woff"),
+    url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.ttf")
+      format("truetype"),
+    url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.svg#Nexa-Bold")
+      format("svg"),
+    url("//d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Bold.woff2")
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Nexa-Black";
+  font-display: "swap";
+  src: url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.eot");
+  src: local("Nexa Bold"), local("Nexa-Black"), local("sans-serif"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.woff")
+      format("woff"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.ttf")
+      format("truetype"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.svg#Nexa-Black")
+      format("svg"),
+    url("https://d167y3o4ydtmfg.cloudfront.net/kraftrecipes/v202003230148/fonts/Nexa-Black.woff2")
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+body {
+  margin: 0;
+}
+
+.bs-header-wrapper {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  font-family: Nexa-Black;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 30px;
+  color: #484545;
+}
+
+.bs-logo-block {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.bs-logo-Name {
+  margin-left: 10px;
+}
+
+.bs-main-wrapper {
+  display: flex;
+  user-select: none;
+  overflow: hidden;
+}
+
+.bs-sidebar-wrapper {
+  height: 100vh;
+  background: #757575;
+}
+.bs-sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bs-content-wrapper {
+  width: 100%;
+}
+
+.bs-sidebar-wrapper svg {
+  fill: white;
+}
+
+.bs-icons {
+  padding: 16px 25px;
+  cursor: pointer;
+}
+
+.bs-icons:hover svg {
+  fill: #757575;
+}
+
+.bs-icons:hover {
+  background-color: white;
+}
+
+.bs-icons[active="true"] {
+  background-color: black;
+}
+
+.bs-icons[active="true"] svg {
+  fill: #757575;
+}
+
+.bs-uc {
+  color: #564f4f;
+  font-family: nexa-bold;
+  text-align: center;
+  height: 87%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  background: #e7e7e7;
+  margin: 0;
+  align-items: center;
+}
+
+.bs-logo > svg {
+  fill: #564f4f;
+}
+
+.bs-home-wrapper {
+  color: #564f4f;
+  font-family: nexa-bold;
+
+  display: flex;
+  flex-direction: column;
+  background: #e7e7e7;
+  padding: 30px;
+}
+
+.bs-home-title {
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
+.bs-tab-head-block {
+  display: flex;
+}
+
+.bs-tab-head-block > div {
+  padding: 5px 25px;
+  border: 1px solid #767070;
+  border-bottom: none;
+  cursor: pointer;
+}
+.bs-tab-head-item.active {
+  color: white;
+  background: black;
+}
+
+.bs-tab-head-block > div:last-child {
+  border-left: none;
+}
+
+.bs-tab-content-block {
+  padding: 20px;
+  border: 1px solid #787676;
+  height: 500px;
+  overflow-y: scroll;
+  max-width: 1000px;
+}
+
+#bs-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ax-title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#bs-table td,
+#bs-table th {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+#bs-table tr:nth-child(even) {
+  background-color: #cdcdcd;
+}
+#bs-table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#bs-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #818181;
+  color: #1d1c1c;
+}
+
+.bs-pic {
+  width: 85px;
+}
+.table-row {
+  cursor: pointer;
+}
+.form-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 35px;
+}
+
+.bs-form-wrapper input {
+  border: none;
+  font-family: "Nexa-Regular";
+  border-bottom: 2px solid gray;
+  display: block;
+  margin-top: 3px;
+  padding: 7px 0 3px;
+  min-width: 250px;
+  font-size: 18px;
+  background: #e7e7e7;
+}
+
+.form-section > div {
+  margin-right: 100px;
+}
+
+.form-section > div:last-child {
+  margin-right: 0px;
+}
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+#agreement {
+  display: inline-block;
+  min-width: auto;
+}
+
+.bs-team-field > select {
+  font-family: "Nexa-Regular";
+  padding: 10px;
+  border-bottom: 2px solid gray;
+  min-width: 250px;
+  background: #e7e7e7;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid gray;
+}
+
+.bs-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.bs-form-bottom > button {
+  font-family: nexa-bold;
+  border: navajowhite;
+  background: #242323;
+  color: white;
+  padding: 8px 35px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
